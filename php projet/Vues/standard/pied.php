@@ -1,0 +1,1 @@
+<footer style="position: fixed; bottom : 0; width: 100%;">Travail MVC : CAYETANO MANON LP</footer>
