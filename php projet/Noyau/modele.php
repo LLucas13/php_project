@@ -3,7 +3,7 @@
 final class Modele
 {
   
-  public static function
+  public static function connexion()
     {
 
     define ('CHEMIN_VERS_FICHIER_INI', 'connex_base.ini');
@@ -23,6 +23,7 @@ final class Modele
     $O_conn= new PDO($S_dsn,
       $A_config['utilisateur'],
       $A_config['motdepasse']);
+    }
 }
 
 
